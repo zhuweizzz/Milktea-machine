@@ -1,0 +1,29 @@
+
+T394C 000:293 SEGGER J-Link V4.96d Log File (0001ms, 0264ms total)
+T394C 000:293 DLL Compiled: Jan 29 2015 11:45:37 (0001ms, 0264ms total)
+T394C 000:293 Logging started @ 2019-09-26 16:06 (0001ms, 0264ms total)
+T394C 000:294 JLINK_SetWarnOutHandler(...) (0000ms, 0264ms total)
+T394C 000:294 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N: 20080643
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0262ms, 0526ms total)
+T394C 000:556 JLINK_SetErrorOutHandler(...) (0000ms, 0526ms total)
+T394C 000:556 JLINK_ExecCommand("ProjectFile = "E:\project\stm32Proj\F4_proj\Template - ¸±±¾\USER\JLinkSettings.ini"", ...)Device "UNSPECIFIED" selected.  returns 0x00 (0003ms, 0529ms total)
+T394C 000:561 JLINK_ExecCommand("Device = STM32F407ZGTx", ...)Device "UNSPECIFIED" selected.  returns 0x00 (0002ms, 0531ms total)
+T394C 000:563 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0531ms total)
+T394C 000:563 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0531ms total)
+T394C 000:563 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0531ms total)
+T394C 000:563 JLINK_GetFirmwareString(...) (0000ms, 0531ms total)
+T394C 000:589 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0531ms total)
+T394C 000:589 JLINK_GetCompileDateTime() (0000ms, 0531ms total)
+T394C 000:595 JLINK_GetFirmwareString(...) (0000ms, 0531ms total)
+T394C 000:599 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0531ms total)
+T394C 000:612 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0532ms total)
+T394C 000:613 JLINK_SetSpeed(20000) (0000ms, 0532ms total)
+T394C 000:613 JLINK_GetId() >0x108 TIF>Found SWD-DP with ID 0x5BA02477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF>
+ >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M7 r1p0, Little endian. >0x0D TIF> >0x28 TIF>
+  ***** Error: Specific core setup failed.  returns 0x00000000 (2189ms, 2721ms total)
+T394C 003:994 JLINK_Close() >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> (0001ms, 2722ms total)
+T394C 003:994  (0001ms, 2722ms total)
+T394C 003:994 Closed (0001ms, 2722ms total)

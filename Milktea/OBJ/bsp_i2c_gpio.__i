@@ -1,0 +1,6 @@
+--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FWLIB\inc -I ..\CORE -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\KEY -I ..\HARDWARE\SYSTICK -I ..\HARDWARE\PWM -I ..\HARDWARE\USART -I ..\HARDWARE\I2C -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\iic
+-I.\RTE\_Template
+-I"C:\Program Files\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"
+-I"C:\Program Files\ARM\CMSIS\Include"
+-D__UVISION_VERSION="525" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER
+-o ..\obj\bsp_i2c_gpio.o --omf_browse ..\obj\bsp_i2c_gpio.crf --depend ..\obj\bsp_i2c_gpio.d "..\HARDWARE\iic\bsp_i2c_gpio.c"
